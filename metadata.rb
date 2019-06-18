@@ -1,10 +1,10 @@
 name 'myiis'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Javier Solera'
+maintainer_email 'jsolera@demo.com'
 license 'All Rights Reserved'
 description 'Installs/Configures myiis'
 long_description 'Installs/Configures myiis'
-version '0.1.0'
+version '0.2.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
