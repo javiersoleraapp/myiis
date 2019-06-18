@@ -9,7 +9,7 @@ powershell_script 'Intall IIS' do
 end
 
 file 'c:\inetpub\wwwroot\Default.htm' do
-  content '<h1>Hello, world!</h1> Yeah'
+  content '<h1>Hello, world!</h1>'
 end
 
 service 'w3svc' do
